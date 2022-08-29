@@ -1,0 +1,33 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;  
+
+.blog-of-the-month{
+    position: relative;
+    padding: 0;
+    @include gradient;
+    &__pic{
+
+        width: 16rem;
+        height: 16rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -92%);
+        img {
+            border: 0.325rem solid rgba($primary, 0.7);
+        }
+    }
+    &__description{
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+        h3{
+            padding-top: 0.8rem;
+        }
+        h5{
+            text-transform: capitalize;
+        }
+    }
+}
+

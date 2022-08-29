@@ -1,0 +1,22 @@
+
+@use 'custom';
+
+//import components
+
+@use 'components/animations';
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+
+//import sections
+
+@use 'sections/navbar';
+@use 'sections/about';
+@use 'sections/blog-of-the-month';
+@use 'sections/blog';
+@use 'sections/blurb';
+@use 'sections/contact';
+@use 'sections/footer';
+@use 'sections/intro-section';
+@use 'sections/projects';
+@use 'sections/resume';
